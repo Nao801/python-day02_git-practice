@@ -13,5 +13,5 @@ assert fizzbuzz_convert(3) == 'Fizz'
 assert fizzbuzz_convert(5) == 'Buzz'
 assert fizzbuzz_convert(15) == 'FizzBuzz'
 
-for number in range(1, 100):
+for number in range(1, 101):
     print(fizzbuzz_convert(number))
